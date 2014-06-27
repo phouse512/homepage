@@ -884,6 +884,41 @@
 					z-index: 1;
 				}
 
+
+/******************************/
+/*  Custom work               */
+/******************************/
+    .panel a {
+        color: #363636;
+        text-decoration: none; 
+    }
+
+    .panel a:hover {
+        text-decoration: underline;
+    }
+
+    h6 a {
+        font-size: 16px;
+        color: #5E5E5E;
+        text-decoration: none;
+    }
+
+    h6 a:hover {
+        text-decoration: underline;
+    }
+
+    #blog {
+        padding-top: 1.5em;
+    }
+
+    #blog header {
+        margin-bottom: 0em;
+    }
+
+    hr:first-child {
+        margin-top: .2em;
+    }
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/

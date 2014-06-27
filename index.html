@@ -20,7 +20,8 @@
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/noscript.css" />
 		</noscript>
-        <script type="text/javascript" src="http://lifeofhouse.tumblr.com/api/read/json"></script>
+        <script type="text/javascript" src="http://lifeofhouse.tumblr.com/api/read/json?type=text"></script>
+        <script type="text/javascript" src="js/source.js"></script>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -123,11 +124,11 @@
                         
                             <article id="blog" class="panel">
                                 <header>
-                                    <h2>Blog</h2>
+                                    <h6>Teaching Moments <span class="pull-right"><a href="http://lifeofhouse.tumblr.com">see my full blog here</a></span></h6>
                                 </header>
                                 <div>
-                                    <div class="row half">
-                                    
+                                    <div id="posts" class="row half">
+        
                                     </div>
                                 </div>
                             </article>
@@ -172,11 +173,16 @@
 					<div id="footer">
 						<ul class="links">
 							<li>&copy; Philip House</li>
-							<li>Design : <a href="http://html5up.net/">HTML5 UP</a></li>
 						</ul>
 					</div>
 		
 			</div>
+        
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    getTumblrJSON();
+                });
+            </script>
 
 	</body>
 </html>
