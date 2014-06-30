@@ -918,9 +918,13 @@
         margin-top: .2em;
     }
 
-    #work .space {
+    #about .space {
         margin-top: 2em;   
-        margin-left: 1em;
+        padding-left: 3.5em;
+    }
+
+    #about .first {
+        margin-left: 2em;   
     }
 
 /*********************************************************************************/
